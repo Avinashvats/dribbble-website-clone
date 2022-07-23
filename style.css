@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  padding: 30px 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.link {
+  list-style: none;
+  color: #6e6d7a;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.linktype {
+  text-decoration: none;
+  color: #6e6d7a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.linktype:hover {
+  color: black;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 20px;
+  padding: 0px 20px;
+  align-items: center;
+}
+
+.logo {
+  width: 5rem;
+  margin-top: 10px;
+}
+
+.search {
+  padding: 15px 0;
+  font-size: 20px;
+  color: #9e9ea7;
+  display: flex;
+}
+
+.sign {
+  padding: 15px 0;
+}
+
+.btn-link {
+  background-color: #ea4c89;
+  color: #fff;
+  padding: 0px 17px;
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.back-video {
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.banner-nav {
+  margin: 50px 0;
+  position: absolute;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+.banner-nav_link {
+  margin: 30px 0;
+  list-style: none;
+  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 16px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  line-height: 20px;
+}
+
+.active {
+  background-color: #fff;
+  color: black;
+}
+
+.banner-nav_link:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.banner-text {
+  color: #fff;
+  position: absolute;
+  margin-top: 130px;
+  font-size: 1.3rem;
+}
+
+.para {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+form {
+  margin-top: 320px;
+  align-items: center;
+  position: absolute;
+  display: flex;
+}
+
+.inputsearch {
+  padding: 20px 15px;
+  border-radius: 50px 0 0 50px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #9e9ea7;
+  margin-left: 15px;
+}
+
+input {
+  padding: 18px 10px;
+  border-radius: 0 50px 50px 0;
+  overflow: hidden;
+  outline: none;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #9e9ea7;
+}
+
+.trending {
+  margin-top: 410px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-suggestion {
+  color: #fff;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.search-suggestion_link {
+  border: 1px solid #fff;
+  padding: 4px 15px;
+  border-radius: 50px;
+}
+
+main {
+  margin: 20px 100px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-dropdown {
+  border: 1px solid rgb(214, 212, 212);
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filter {
+  border: 1px solid rgb(214, 212, 212);
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-content {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.content {
+  width: 253px;
+  height: 225px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.text-image {
+  margin-top: -7px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 14px;
+}
+
+.like-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-likeview {
+  padding: 0 3px;
+}
+
+.icon-likeview:hover {
+  color: #ea4c89;
+}
+
+.signup {
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.explore-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signup_btn {
+  background-color: #ea4c89;
+  padding: 6px 55px;
+  display: flex;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signin_text {
+  margin-top: 2px;
+  color: #ea4c89;
+  padding: 0 20px;
+  cursor: pointer;
+}
